@@ -1,5 +1,6 @@
 package com.example.taek.myapplication;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
@@ -10,6 +11,8 @@ import android.widget.EditText;
 import android.widget.TabHost;
 import android.widget.TextView;
 import android.view.View;
+
+import static android.provider.AlarmClock.EXTRA_MESSAGE;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -82,9 +85,12 @@ public class MainActivity extends AppCompatActivity {
                         String result = ((Number)(SellPrice - BuyPrice - EtcPrice)).toString();
 
                         text11_1.setText(result);
+
+                        Intent cal_intent = new Intent(MainActivity.this, CalCulActivity.class);
+                        cal_intent.putExtra(EXTRA_MESSAGE, result);
+                        startActivity(cal_intent);
                     }
                 }
         );
-
     }
 }
