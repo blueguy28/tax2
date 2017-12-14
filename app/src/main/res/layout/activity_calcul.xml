@@ -14,7 +14,8 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_weight="1">
         <TextView
             android:id="@+id/text_cal_1_1"
             android:layout_width="wrap_content"
@@ -34,7 +35,8 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_weight="1">
         <TextView
             android:id="@+id/text_cal_2_1"
             android:layout_width="wrap_content"
@@ -54,7 +56,8 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_weight="1">
         <TextView
             android:id="@+id/text_cal_3_1"
             android:layout_width="wrap_content"
@@ -74,7 +77,8 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_weight="1">
         <TextView
             android:id="@+id/text_cal_4_1"
             android:layout_width="wrap_content"
@@ -94,7 +98,8 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_weight="1">
         <TextView
             android:id="@+id/text_cal_5_1"
             android:layout_width="wrap_content"
@@ -114,7 +119,8 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_weight="1">
         <TextView
             android:id="@+id/text_cal_6_1"
             android:layout_width="wrap_content"
@@ -134,7 +140,8 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_weight="1">
         <TextView
             android:id="@+id/text_cal_7_1"
             android:layout_width="wrap_content"
@@ -154,7 +161,8 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_weight="1">
         <TextView
             android:id="@+id/text_cal_8_1"
             android:layout_width="wrap_content"
@@ -174,7 +182,8 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_weight="1">
         <TextView
             android:id="@+id/text_cal_9_1"
             android:layout_width="wrap_content"
@@ -194,7 +203,8 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_weight="1">
         <TextView
             android:id="@+id/text_cal_10_1"
             android:layout_width="wrap_content"
@@ -214,7 +224,8 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_weight="1">
         <TextView
             android:id="@+id/text_cal_11_1"
             android:layout_width="wrap_content"
@@ -234,7 +245,8 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_weight="1">
         <TextView
             android:id="@+id/text_cal_12_1"
             android:layout_width="wrap_content"
@@ -254,7 +266,8 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_weight="1">
         <TextView
             android:id="@+id/text_cal_13_1"
             android:layout_width="wrap_content"
@@ -274,7 +287,8 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_weight="1">
         <TextView
             android:id="@+id/text_cal_14_1"
             android:layout_width="wrap_content"
@@ -294,7 +308,8 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_weight="1">
         <Button
             android:id="@+id/button_cal_1"
             android:layout_width="wrap_content"

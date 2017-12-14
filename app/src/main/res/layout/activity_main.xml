@@ -172,16 +172,17 @@
                                             android:layout_weight="1"
                                             android:text="비사업용 토지에 해당합니까?" />
                                         <RadioGroup
+                                            android:id="@+id/radio8"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
                                             android:orientation="horizontal" >
                                                 <RadioButton
-                                                    android:id="@+id/option1_1"
+                                                    android:id="@+id/option8_1"
                                                     android:layout_width="wrap_content"
                                                     android:layout_height="wrap_content"
                                                     android:text="예" />
                                                 <RadioButton
-                                                    android:id="@+id/option1_2"
+                                                    android:id="@+id/option8_2"
                                                     android:layout_width="wrap_content"
                                                     android:layout_height="wrap_content"
                                                     android:text="아니요" />
@@ -194,7 +195,8 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:orientation="horizontal"
-                                    android:layout_weight="1">
+                                    android:layout_weight="1"
+                                    android:id="@+id/linear9">
                                         <TextView
                                             android:id="@+id/text9_1"
                                             android:layout_width="wrap_content"
@@ -202,16 +204,17 @@
                                             android:layout_weight="1"
                                             android:text="거주자로서 1세대 1주택입니까?" />
                                         <RadioGroup
+                                            android:id="@+id/radio9"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
                                             android:orientation="horizontal" >
                                                 <RadioButton
-                                                    android:id="@+id/option2_1"
+                                                    android:id="@+id/option9_1"
                                                     android:layout_width="wrap_content"
                                                     android:layout_height="wrap_content"
                                                     android:text="예" />
                                                 <RadioButton
-                                                    android:id="@+id/option2_2"
+                                                    android:id="@+id/option9_2"
                                                     android:layout_width="wrap_content"
                                                     android:layout_height="wrap_content"
                                                     android:text="아니요" />
@@ -224,7 +227,8 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:orientation="horizontal"
-                                    android:layout_weight="1">
+                                    android:layout_weight="1"
+                                    android:id="@+id/linear10">
                                         <TextView
                                             android:id="@+id/text10_1"
                                             android:layout_width="wrap_content"
@@ -232,16 +236,17 @@
                                             android:layout_weight="1"
                                             android:text="1세대 1주택으로 2년 이상 보유/거주하였습니까?" />
                                         <RadioGroup
+                                            android:id="@+id/radio10"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
                                             android:orientation="horizontal" >
                                                 <RadioButton
-                                                    android:id="@+id/option3_1"
+                                                    android:id="@+id/option10_1"
                                                     android:layout_width="wrap_content"
                                                     android:layout_height="wrap_content"
                                                     android:text="예" />
                                                 <RadioButton
-                                                    android:id="@+id/option3_2"
+                                                    android:id="@+id/option10_2"
                                                     android:layout_width="wrap_content"
                                                     android:layout_height="wrap_content"
                                                     android:text="아니요" />
